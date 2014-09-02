@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="errors_required">%1$s 是必填的。</string>
+    <string name="errors_minlength">%1$s 的长度不能小于   %2$d 。</string>
+    <string name="errors_maxlength">%1$s 的长度不能大于   %2$d .</string>
+    <string name="errors_mask">%1$s 是无效的.</string>
+    <string name="errors_isInteger">%1$s 必须是Integer.</string>
+    <string name="errors_isDouble">%1$s 必须是Double.</string>
+    <string name="errors_isDate">%1$s 必须是日期.</string>
+    <string name="errors_range">%1$s 不在   %2$d 和   %3$d 之间.</string>
+    <string name="errors_intRange">%1$s 不在   %2$d 和   %3$d 之间.</string>
+    <string name="errors_doubleRange">%1$s 不在   %2$d 和   %3$d 之间.</string>
+    <string name="errors_isEmail">%1$s 是不规范的Email.</string>
+    <string name="errors_isUrl">%1$s 是无效的网址.</string>
+    
+	<string name="errors_msg_credit_card">请输入有效的信用卡号码！</string>
+	<string name="errors_msg_is_date">请输入有效的日期！</string>
+	<string name="errors_msg_double_range_value">允许的数值范围在[%1$d,%2$d]之间.</string>
+	<string name="errors_msg_int_range_value">允许的数值范围在[%1$d,%2$d]之间.</string>
+	<string name="errors_msg_digits_range_value">允许的数值范围在[%1$d,%2$d]之间.</string>
+	<string name="errors_msg_range_value">允许的数值范围在[%1$d,%2$d]之间.</string>
+	<string name="errors_msg_is_double">必须是Double.</string>
+	<string name="errors_msg_email">请输入有效的邮件地址.</string>
+	<string name="errors_msg_is_integer">必须是Integer.</string>
+	<string name="errors_msg_max_length">允许的内容长度最大为 %1$d.</string>
+	<string name="errors_msg_min_length">允许的内容长度最小为 %1$d.</string>
+	<string name="errors_msg_required">必须输入.</string>
+	<string name="errors_msg_url">无效的网址.</string>
+	<string name="errors_msg_not_empty">不能为空.</string>
+	<string name="errors_msg_digits">只能是数字.</string>
+	<string name="errors_msg_equals">内容不相同。</string>
+	<string name="errors_msg_mobile_phone">手机号码不正确。</string>
+	
+</resources>

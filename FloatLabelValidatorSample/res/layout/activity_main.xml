@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textPersonName"
+        android:inputType="textPersonName" />
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textPassword"
+        android:inputType="textPassword" />
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numberPassword"
+        android:inputType="numberPassword" />
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textEmailAddress"
+        android:inputType="textEmailAddress" />
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/textPostalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="@string/textPostalAddress"
+        android:inputType="textPostalAddress" />
+
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:id="@+id/numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numberDecimal"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/validate" />
+
+</LinearLayout>
