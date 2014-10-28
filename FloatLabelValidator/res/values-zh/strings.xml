@@ -30,6 +30,6 @@
 	<string name="errors_msg_not_empty">不能为空.</string>
 	<string name="errors_msg_digits">只能是数字.</string>
 	<string name="errors_msg_equals">内容不相同。</string>
-	<string name="errors_msg_mobile_phone">手机号码不正确。</string>
+	<string name="errors_msg_mobile_phone">%1$s手机号码不正确。</string>
 	
 </resources>

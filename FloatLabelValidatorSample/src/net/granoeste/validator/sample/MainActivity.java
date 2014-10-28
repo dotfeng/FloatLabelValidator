@@ -109,7 +109,7 @@ public class MainActivity extends Activity {
                     new EmailValidator(context),
             });
             mValidators.put(mPhone, new Validator[] {
-                    new MobilePhoneCNValidator("Input the right telephone number. "),
+                    new MobilePhoneCNValidator(mPhone.getEditableText().toString(), context),
             });
             mValidators.put(mTextPostalAddress, new Validator[] {
                     new MaxLengthValidator(7, "Being allowed is to 7 characters. "),
