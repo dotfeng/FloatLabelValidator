@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatLabel">
+        <attr name="android:hint"/>
+        <attr name="android:layout"/>
+        <attr name="android:text"/>
+        <attr name="android:textColorHint"/>
+        <attr name="floatLabelColor" format="color"/>
+        <attr name="android:inputType"/>
+    </declare-styleable>
+        <declare-styleable name="ValidatableEditText">
+        <attr name="required" format="boolean" />
+        <attr name="minlength" format="integer" />
+        <attr name="maxlength" format="integer" />
+        <attr name="mask" format="string" />
+        <attr name="isInteger" format="boolean" />
+        <attr name="isDouble" format="boolean" />
+        <attr name="isDate" format="string" />
+        <attr name="range" format="string" />
+        <attr name="intRange" format="string" />
+        <attr name="doubleRange" format="string" />
+        <attr name="isEmail" format="boolean" />
+        <attr name="isUrl" format="boolean" />
+        <attr name="label" format="string|reference" />
+        <attr name="message" format="string|reference" />
+    </declare-styleable>
+    
+</resources>

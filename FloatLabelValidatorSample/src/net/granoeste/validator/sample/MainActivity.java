@@ -6,8 +6,8 @@ import com.iangclifton.android.floatlabel.FloatLabel;
 import net.granoeste.validator.DoubleRangeValidator;
 import net.granoeste.validator.EmailValidator;
 import net.granoeste.validator.IntRangeValidator;
-import net.granoeste.validator.JapanesePhoneValidator;
 import net.granoeste.validator.MaxLengthValidator;
+import net.granoeste.validator.MobilePhoneCNValidator;
 import net.granoeste.validator.RangeValidator;
 import net.granoeste.validator.RequiredValidator;
 import net.granoeste.validator.Validator;
@@ -109,7 +109,7 @@ public class MainActivity extends Activity {
                     new EmailValidator(context),
             });
             mValidators.put(mPhone, new Validator[] {
-                    new JapanesePhoneValidator("Input the right telephone number. "),
+                    new MobilePhoneCNValidator("Input the right telephone number. "),
             });
             mValidators.put(mTextPostalAddress, new Validator[] {
                     new MaxLengthValidator(7, "Being allowed is to 7 characters. "),
